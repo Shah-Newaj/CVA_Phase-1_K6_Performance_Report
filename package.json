@@ -1,0 +1,16 @@
+{
+  "name": "cva-web-app",
+  "version": "1.0.0",
+  "description": "k6 browser performance journey for the CVA Cash App test site.",
+  "scripts": {
+    "pretest": "node ./scripts/clean-artifacts.cjs",
+    "test": "k6 run ./scripts/cva-main.js"
+  },
+  "keywords": [
+    "k6",
+    "browser",
+    "performance"
+  ],
+  "author": "",
+  "license": "UNLICENSED"
+}
